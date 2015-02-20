@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="ibizApp" ng-csp>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <link href="styles/main.css" rel="stylesheet">
+
+        <script src="bower_components/angular/angular.min.js"></script>
+    </head>
+    <body ng-controller="LedController as ledCtrl">
+
+        <div ng-click="ledCtrl.toggleOnOff()" class="clickable led" style="background-color:#{{ledCtrl.currentColor}};">
+            <span class="glyphicon glyphicon-off target-led-onOff" aria-hidden="true"></span>
+        </div>
+        <div ng-show="ledCtrl.isOn">
+            <div class="btn-group">
+                <div set-color="ff0000" class="clickable led btn"></div>
+                <div set-color="ffaa00" class="clickable led btn"></div>
+                <div set-color="00ff00" class="clickable led btn"></div>
+            </div>
+        </div>
+        <script src="scripts/popup.js"></script>
+    </body>
+</html>

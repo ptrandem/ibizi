@@ -1,0 +1,40 @@
+<!doctype html>
+<html ng-app="ibizApp" ng-csp>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="bower_components/angular-bootstrap-colorpicker/css/colorpicker.css">
+        <link href="styles/main.css" rel="stylesheet">
+
+        <script src="bower_components/angular/angular.min.js"></script>
+    </head>
+    <body ng-controller="LedController as ledCtrl">
+        <div class="target-led-container">
+            <div ng-click="ledCtrl.toggleOnOff()" class="clickable led" style="background-color:{{ledCtrl.currentColor}};">
+                <span class="glyphicon glyphicon-off target-led-onOff" aria-hidden="true"></span>
+            </div>
+        </div> 
+        <div ng-show="ledCtrl.isOn" class="led-panel">
+            <div class="btn-group">
+                <div set-color="#ff0000" class="clickable led btn"></div>
+                <div set-color="#ffaa00" class="clickable led btn"></div>
+                <div set-color="#00ff00" class="clickable led btn"></div>
+            </div>
+            <div class="btn-group clickable">
+                <div colorpicker colorpicker-position="left" colorpicker-size="50" class="clickable led btn" ng-model="ledCtrl.currentColor" style="background-color:{{ledCtrl.currentColor}};"></div>
+            </div>
+            <div>
+                <input type="text" class="form-control clickable" ng-model="ledCtrl.currentColor" select-on-click>
+            </div>
+        </div>
+        <div class="settings-panel clickable">
+            <input type="checkbox" name="exitOnblur" id="exitOnBlur" class="dark-checkbox" ng-model="ledCtrl.exitOnBlur" ></input>
+            <label for="exitOnBlur"> auto exit </label>
+        </div>
+
+        <script src="bower_components/angular-bootstrap-colorpicker/js/bootstrap-colorpicker-module.js"></script>
+        <script src="scripts/popup.js"></script>
+
+    </body>
+</html>

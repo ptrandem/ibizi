@@ -1,0 +1,228 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"glowbean",
+				"glowbeanwrite"
+			],
+			[
+				"asser",
+				"assertEqual"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pi",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			".75+1.5+1.75",
+			"2.25 + 1.5 + 3.75 + 1 +  1.25 + 4 + .75 ",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ptrandem/Desktop/Projects/trandem/Chrome Apps/iBizi",
+		"/Users/ptrandem/Desktop/Projects/trandem/Chrome Apps/iBizi/app"
+	],
+	"file_history":
+	[
+		"/Users/ptrandem/Desktop/Projects/trandem/TODAY.todo",
+		"/Users/ptrandem/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/ptrandem/Desktop/Projects/trandem/GlowBeanGlow/Host/usbapi/glowbeanwrite.c",
+		"/Users/ptrandem/Desktop/Projects/trandem/GlowBeanGlow/Host/usbapi/hidapi/hidapi/hidapi.h",
+		"/Users/ptrandem/Desktop/Projects/trandem/GlowBeanGlow/Host/usbapi/hidapi/hidtest/hidtest.cpp",
+		"/Users/ptrandem/Desktop/Projects/trandem/GlowBeanGlow/Host/usbapi/hidapi/hidtest/Makefile",
+		"/Users/ptrandem/Desktop/Projects/trandem/GlowBeanGlow/Host/usbapi/Makefile.am",
+		"/Users/ptrandem/Desktop/Projects/trandem/GlowBeanGlow/Host/usbapi/Makefile",
+		"/Volumes/C/Users/ptrandem/Downloads/log.20131113.010332.txt",
+		"/Users/ptrandem/Desktop/Projects/trandem/Chrome Extensions/Admin Killer/popup.html",
+		"/Volumes/C/projects/zj/purina.com/Purina.Web/assets/styles/screen.css",
+		"/Users/ptrandem/Documents/Timesheet - 2013:10:24.txt",
+		"/Volumes/projects/zj/purina.com/Purina.Web/assets/styles/screen.css",
+		"/Users/ptrandem/Desktop/Projects/trandem/GlowBeanGlow/Firmware/AVR/Drivers/LedDriver.h",
+		"/Users/ptrandem/Desktop/Projects/trandem/GlowBeanGlow/Firmware/AVR/Drivers/LedDriver.c"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hid_open",
+			"cpp",
+			"clang",
+			"glowbeanapi",
+			"386",
+			"CC=\\",
+			"CC=",
+			"blink1-lib",
+			"blink1-tool",
+			"hidapi",
+			"srequest",
+			"\\\"",
+			" \" +",
+			"\" \" +",
+			".breed-finder",
+			"<<<<<",
+			"<<<<<<",
+			"<<<<<",
+			"list-grid",
+			"chop",
+			"\\)\\n",
+			")\\n",
+			"assert_equal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"glowbeanapi",
+			"glowbeanwrite",
+			"\"",
+			"",
+			"find",
+			"chop",
+			"\\);\\n",
+			");\\n",
+			"tester.assertEqual",
+			"assert_equal"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ibizi.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

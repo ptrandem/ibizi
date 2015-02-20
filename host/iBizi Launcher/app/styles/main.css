@@ -1,0 +1,37 @@
+body {
+	min-width:110px;
+	margin:20px;
+	background-color: #444;
+	color:#aaa;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:130px;
+}
+
+.led {
+	width:26px;
+	height:26px;
+	border-radius: 50%;
+	background-color:#222;
+	display:inline-block;	
+}
+
+.clickable {
+	cursor:pointer;
+}
+
+.target-led-onOff {
+	color:#ccc;
+	font-size:40px;
+	margin-left:-7px;
+	margin-top:-7px;
+}
+
+.ng-hide {
+  /* this is just another form of hiding an element */
+  display: block!important;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}

@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "iBizi Launcher",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "A launcher extension for the iBizi control application.",
+    "description": "The description of the application"
+  }
+}
