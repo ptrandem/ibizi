@@ -1,0 +1,13 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"2";"0.1uf";"C-EUC0402";"C0402";"C4, C5";"CAPACITOR, European symbol";"";
+"1";"10k";"R-EU_R0402";"R0402";"R1";"RESISTOR, European symbol";"";
+"1";"10uF";"10UF-16V-10%(TANT)";"EIA3216";"C6";"CAP-00811";"";
+"2";"18pf";"C-EUC0402";"C0402";"C2, C3";"CAPACITOR, European symbol";"";
+"1";"1uf";"C-EUC0402";"C0402";"C1";"CAPACITOR, European symbol";"";
+"2";"22";"R-EU_R0402";"R0402";"R2, R3";"RESISTOR, European symbol";"";
+"3";"75";"R-EU_R0402";"R0402";"R4, R5, R6";"RESISTOR, European symbol";"";
+"1";"ATMEGAXU2";"ATMEGAXU2";"QFN32";"U1";"";"";
+"1";"AVR_SPI_PRG_6NS";"AVR_SPI_PRG_6NS";"2X3-NS";"J1";"AVR ISP 6 Pin";"";
+"1";"CRYSTAL-EPSON-TSX3225-3.2X2.5";"CRYSTAL-EPSON-TSX3225-3.2X2.5";"CRYSTAL-SMD-3.2X2.5";"Q1";"";"";
+"1";"RGB-LED-CLV1A-FKB";"RGB-LED-CLV1A-FKB";"PLCC4";"LED1";"";"";
+"1";"USBSMD";"USBSMD";"USB-MINIB";"USB";"USB Connectors";"";
