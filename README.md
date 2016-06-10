@@ -1,6 +1,6 @@
 # ibizi
 
-ibizi is a simple, one-pixel status indicator via a USB connection.
+ibizi is a simple, color-based status indicator via a USB connection.
 
 There are many other things out there that have similar functionality, but none of them quite have the form factor we were looking for.
 
