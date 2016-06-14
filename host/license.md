@@ -4,7 +4,7 @@ License Information
 Application Code
 ---------
 
-The ibizi application code is distributed under the MIT license.
+The iBizi application code is distributed under the MIT license.
 
 **The MIT License (MIT)**
 

@@ -4,7 +4,7 @@ License Information
 Firmware
 ---------
 
-The ibizi firmware is distributed under the MIT license.
+The iBizi firmware is distributed under the MIT license.
 
 **The MIT License (MIT)**
 
@@ -20,7 +20,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Attribution
 -----------
 
-The ibizi firmware uses the excellent **LUFA USB library by Dean Camera**. 
+The iBizi firmware uses the excellent **LUFA USB library by Dean Camera**. 
 
 [LUFA on GitHub](https://github.com/abcminiuser/lufa) 
 
