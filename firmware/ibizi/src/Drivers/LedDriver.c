@@ -1,3 +1,8 @@
+/*
+    ibizi Firmware
+    Copyright (C) Paul Trandem 2016.
+*/
+
 #include "LedDriver.h"
 #include "TransistorLabs/avr.h"
 

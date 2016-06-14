@@ -1,3 +1,9 @@
+/*
+    ibizi Firmware
+    Copyright (C) Paul Trandem 2016.
+	Uses LUFA Library by Dean Camera (see license.txt)
+*/
+
 #include "Descriptors.h"
 
 /** HID class report descriptor. This is a special descriptor constructed with values from the

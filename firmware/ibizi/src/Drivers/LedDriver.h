@@ -1,3 +1,8 @@
+/*
+    ibizi Firmware
+    Copyright (C) Paul Trandem 2016.
+*/
+
 #ifndef LEDDRIVER_H_
 #define LEDDRIVER_H_
 

@@ -1,3 +1,9 @@
+/*
+    ibizi Firmware
+    Copyright (C) Paul Trandem 2016.
+	Uses LUFA Library by Dean Camera (see license.txt)
+*/
+
 #include "main.h"
 #include "Drivers/LedDriver.h"
 #include "Config/Timer0Config.h"

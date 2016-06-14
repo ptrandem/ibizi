@@ -1,8 +1,8 @@
 /*
- * Created: 1/27/2013 8:55:42 AM
- *  Author: paul trandem
- *  Copyright (c) 2013 Paul Trandem
- */ 
+    ibizi Firmware
+    Copyright (C) Paul Trandem 2016.
+	Uses LUFA Library by Dean Camera (see license.txt)
+*/
 
 #include "Timer0Config.h"
 #include <avr/interrupt.h>

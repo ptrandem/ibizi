@@ -1,9 +1,8 @@
 /*
- * Created: 1/27/2013 8:54:07 AM
- *  Author: paul trandem
- *  Copyright (c) 2013 Paul Trandem
- */ 
-
+    ibizi Firmware
+    Copyright (C) Paul Trandem 2016.
+	Uses LUFA Library by Dean Camera (see license.txt)
+*/
 
 #ifndef TIMER0CONFIG_H_
 #define TIMER0CONFIG_H_

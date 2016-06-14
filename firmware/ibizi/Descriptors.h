@@ -1,4 +1,9 @@
-
+/*
+    ibizi Firmware
+    Copyright (C) Paul Trandem 2016.
+	Uses LUFA Library by Dean Camera (see license.txt)
+*/
+	
 #ifndef _DESCRIPTORS_H_
 #define _DESCRIPTORS_H_
 
