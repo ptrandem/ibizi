@@ -85,7 +85,7 @@
 		};
 
 		this.connectAndSendColor = function(colorString) {
-			chrome.hid.getDevices({'vendorId': 1003, 'productId' : 8271}, function(devices){
+			chrome.hid.getDevices({'vendorId': 4617, 'productId' : 45312}, function(devices){
 				if (!devices || devices.length === 0) {
 					return;
 				}
