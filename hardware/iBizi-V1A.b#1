@@ -18,8 +18,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -125,8 +125,8 @@
 <text x="0" y="-0.0508" size="0.02031875" layer="21" font="vector">C:/Share/embeddedclublogo1.bmp</text>
 <text x="24.292559375" y="12.46631875" size="0.6096" layer="22" font="vector" rot="SMR270">iBizi v1
 Revision 1D
-2016-10-13</text>
-<text x="16.748759375" y="1.67131875" size="0.6096" layer="21" font="vector" rot="R90">iBizi v1</text>
+2016-06-14</text>
+<text x="6.24331875" y="7.178040625" size="0.6096" layer="21" font="vector">iBizi v1</text>
 <wire x1="6.5532" y1="17.2212" x2="8.2296" y2="17.2212" width="0.1524" layer="42"/>
 <wire x1="8.2296" y1="17.2212" x2="9.6012" y2="18.5928" width="0.1524" layer="42"/>
 <wire x1="9.6012" y1="18.5928" x2="10.668" y2="18.5928" width="0.1524" layer="42"/>
@@ -139,7 +139,7 @@ Revision 1D
 <wire x1="16.764" y1="16.764" x2="24.9936" y2="16.764" width="0.1524" layer="42"/>
 <wire x1="4.572" y1="22.4028" x2="4.572" y2="25.146" width="0.1524" layer="42"/>
 <wire x1="3.5052" y1="20.7264" x2="3.6576" y2="20.574" width="0.1524" layer="42"/>
-<text x="18.288" y="1.6764" size="0.508" layer="21" font="vector" rot="R90" align="top-left">Designed by
+<text x="6.2484" y="7.0104" size="0.508" layer="21" font="vector" align="top-left">Designed by
 Paul Trandem
 </text>
 <wire x1="3.6576" y1="21.336" x2="4.572" y2="22.4028" width="0.1524" layer="42"/>
@@ -147,7 +147,7 @@ Paul Trandem
 <wire x1="4.2672" y1="15.5448" x2="4.2672" y2="15.24" width="0.1524" layer="42"/>
 <wire x1="4.2672" y1="15.24" x2="4.4196" y2="15.0876" width="0.1524" layer="42"/>
 <wire x1="4.4196" y1="15.0876" x2="4.4196" y2="13.5636" width="0.1524" layer="42"/>
-<text x="17.6784" y="1.6764" size="0.6096" layer="21" font="vector" rot="R90">github.com/ptrandem/ibizi</text>
+<text x="6.2484" y="4.8768" size="0.6096" layer="21" font="vector">github.com/ptrandem/ibizi</text>
 </plain>
 <libraries>
 <library name="Transistorlabs">
