@@ -1,6 +1,6 @@
 'use strict';
 
-var appId = 'gadcidfopbpciggcagobeakjopcnkiom';
+var appId = 'chneagfdpnefonnnhmfmhafmnjekhegi';
 var textToSend = '';
 
 var launchApp = function(callback)
