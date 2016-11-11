@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "ibizi", "ibizi\ibizi_6_2.cproj", "{AB25C464-A78B-4494-A3EF-A2361FB0DBEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB25C464-A78B-4494-A3EF-A2361FB0DBEF}.Debug|AVR.ActiveCfg = Debug|AVR
+		{AB25C464-A78B-4494-A3EF-A2361FB0DBEF}.Debug|AVR.Build.0 = Debug|AVR
+		{AB25C464-A78B-4494-A3EF-A2361FB0DBEF}.Release|AVR.ActiveCfg = Release|AVR
+		{AB25C464-A78B-4494-A3EF-A2361FB0DBEF}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
