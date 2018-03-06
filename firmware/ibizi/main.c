@@ -47,8 +47,6 @@ int main(void)
 {
 	SetupHardware();
 	LedDriver_Init();
-	//LedDriver_SetTargetColorValues(0xff, 0xff, 0xff);
-	//Delay_MS(1000);
 	USB_Init();
 	
 	GlobalInterruptEnable();
@@ -57,7 +55,6 @@ int main(void)
 	{
 		HID_Device_USBTask(&Generic_HID_Interface);
 		USB_USBTask();
-		//LedDriver_Task();
 	}
 }
 
@@ -71,7 +68,7 @@ void SetupHardware(void)
 	/* Disable clock division */
 	clock_prescale_set(clock_div_1);
 	
-	// Prescale to 64, TopA at 250 (0xfa), results in 1ms timer
+	// Prescale to 64, TopA at 250 (0xfa): results in 1ms timer
 	Timer0Config_EnableCTCMode(0xfa, 0x00, Timer0Config_IOClk_64);
 	
 	// Prescale to 256, TopA at 125 (0x7d), results in 2ms timer
@@ -93,7 +90,7 @@ void EVENT_USB_Device_Connect(void)
 /** Event handler for the library USB Disconnection event. */
 void EVENT_USB_Device_Disconnect(void)
 {
-	LedDriver_SetTargetColorValues(0x00, 0x00, 0x00);
+	// Do Nothing
 }
 
 /** Event handler for the library USB Configuration Changed event. */
